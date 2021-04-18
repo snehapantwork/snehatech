@@ -24,10 +24,10 @@ body {
 .show-modal1,
 .show-modal2,
 .show-modal3 {
-  font-size: 1.75rem;
-  font-weight: 600;
+  font-size: 1.6rem;
+  font-weight: 500;
   padding: 1.75rem 3.5rem;
-  margin: 3rem 2rem;
+  /* margin: 2rem 2rem; */
   border: none;
   /* background-color: #fff; */
   background: linear-gradient(to top left, #ebecec, #d1d4d4);

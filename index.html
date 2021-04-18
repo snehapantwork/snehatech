@@ -6,67 +6,87 @@
     <title>Sneha Pant Resume</title>
     <link rel="shortcut icon" type="image/x-icon" href="MAIN/images/sp.ico" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@400;600&display=swap"
-      rel="stylesheet"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@400;600&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="STYLE/fading-style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link rel="stylesheet" href="MAIN/css/styles.css" />
     <link rel="stylesheet" href="SUB/MODAL/styles.css"/>
     <link rel="stylesheet" href="STYLE/style1.css">
     <link rel="stylesheet" href="STYLE/style2.css">
+    <link rel="stylesheet" href="STYLE/reference-style.css">
+    <!-- <link rel="stylesheet" href="STYLE/fading-style.css"> -->
   </head>
   <body>
     <main>
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
       <header>
         <div class="content-wrap">
-          <!-- <img src="images/IMG_9601-01.png"> -->
-            <h1>Sneha Pant</h1>     
-          <h2>Web Developer</h2>
-            <p class="intro">
-                I'm a curious learner and innovative thinker proficient in developing and maintaining responsive websites using modern front-end technologies: HTML5, CSS, JavaScript, jQuery, modern libraries and frameworks. I posses Masters in Computer Application and Diploma in Graphic designing, along with good knowledge of Adobe Creative Suite and other web designing tools. Good understanding of SEO, Web Accessibility and applied the same in my work. An enthusiastic learner who can adapt to any technology or business domain and can deliver results quickly in any working environment. Keen to learn new tools and technologies, while working in challenging roles.          
-            </p>
-            <p class="intro">
-                Proficient in software development lifecycle (SDLC) with 5 years working experience as projecct manager and Prince 2 Certification. Good understanding and knowledge of Agile framework, proven by Prefessional Scrum Master (PSM1) and Professional Scrum Product Owner (PSPO1) Certifications.
-            </p>          
+          <h1>Sneha Pant</h1> 
+          <div>
+            <img src="MAIN/images/IMG_9601-01.png" width="100" height="100">
+          </div>
+          <div class="top">
+        
+            
+            <div>
+                 
+               <h2>Web Developer</h2>
+                <p class="intro">
+    
+                 Web Developer specializing in front end development. Experienced with all stages of the development cycle for dynamic web projects. Well-versed in numerous programming languages including HTML5, CSS, JavaScript, jQuery, modern libraries and frameworks. Strong background in project management with PRINCE 2, Professional Scrum Master (PSM1) and Professional Scrum Product Owner (PSPO1) Certifications.
+                </p>
+            </div>
+          
+          </div>
+           
         </div>
       </header>
+ 
       <!-- ***********************  SKILLS  *********************** -->
-      <section class="skills">
-        <div class=" content-wrap ">
-          <h2>Skills & Projects</h2>  
-           <h3>Technical Skills</h3>
-              <div class='work-item'>
-                <p>Front End Development</p>
-                <p>HTML5/CSS</p>
-                <p>JavaScript</p>
-                <p>Angular</p>
-                <p>Web accessibility</p>
-                <p>Web Design</p>
-                
-            </div>
-            
-            <div class='work-item divider'>
-              <p>Microsoft Office</p>
-              <p>Microsoft Dynamics 365</p>
-              <p>Power BI</p>
-              <p>Word Press</p>
-              <p>SEO</p>
-              <p>Google Analytics</p>
-              <p>JIRA, GIT</p>
-              <p>Web Designing</p>
-              <p>Agile Project Management</p>
-              <p>Scrum</p>
-              <p>Adobe Creative Suite</p>
-            </div>
-    
+      <section class="section skills content-wrap">
+        <!-- <div class=" section__title " > -->
+          <h2 class="section__description">Skills</h2> 
+          <h3 class="section__header">Technical Skills</h3>
+        <!-- <img src="/MAIN/images/yellow.jpg" alt="" /> -->
+        <!-- </div> -->
+        <div class="card">
+          <div>
+            <!-- <h3>JAVA SCRIPT IS FUN</h3> -->
+            <p>Front End Development</p>
+            <p>HTML5/CSS</p>
+            <p>JavaScript</p>
+            <p>Angular</p>
+            <p>Web accessibility</p>
+            <p>Web Design</p>
+
+            <!-- <a href="#" class="btn">Buy Now</a> -->
+          </div>
+          <div>
+            <p>Microsoft Office</p>
+            <p>Microsoft Dynamics 365</p>
+            <p>Power BI</p>
+            <p>Word Press</p>
+            <p>SEO</p>
+            <p>Google Analytics</p>
+            <p>JIRA, GIT</p>
+            <p>Web Designing</p>
+            <p>Agile Project Management</p>
+            <p>Scrum</p>
+            <p>Adobe Creative Suite</p>
+          </div>
         </div>
+      
       </section>
        <!---------------- featured works--------------------->
+       
 
-<section class="projects">  
- <div class= " content-wrap">
-  <h2>PROJECTS</h2>
+<section class="section projects content-wrap" data-aos="fade-right">  
+ <div class= "section__title">
+  <h2 class="section__description">PROJECTS</h2>
+  <h3 class="section__header">Featured Work</h3>
      <p>
        IT post-graduate who is always fascinated about the advances in IT Technology. A break from professional career in 2015 didn’t stop my enthusiasm and learning. I’ve started my personal blog and few other initiatives to keep myself motivated and keep the ball rolling.
        </p>
@@ -79,10 +99,8 @@
          </ul>
        </p>
 </div>
-</section>
 
-<section class="projects">
-<div class= "content-wrap">
+<div data-aos="fade-left">
     <h2> APPS | GAMES | BLOG</h2>
       
       <ul>
@@ -118,7 +136,8 @@
         </li>
       </ul>
     </br>
-      
+   
+  </div> 
 
   <div class="slider">
       <a href="SUB/BANKING WEBSITE/" target="_blank"><div class="slide"><img src="SUB/BANKING WEBSITE/img/bank-website.png" alt="Photo 1" /></div></a>
@@ -135,39 +154,10 @@
       <button class="slider__btn slider__btn--right">&rarr;</button> -->
       <div class="dots"></div>
   </div>
-  </div>
+ 
 </section>
-
-
    
-   
-        <!-- ********************  TESTING MODAL ********************* -->
-        <section>
-          <button class="show-modal1">Certified Scrum Master PSM1</button>
-          <button class="show-modal2">Certified Product Owner PSPO1</button>
-          <button class="show-modal3">Certified PRINCE2 Foundation</button>
-      
-          <div class="modal1 hidden">
-            <button class="close-modal1">&times;</button>
-            <!-- <h1>I'm a modal window 😍</h1> -->
-            <img class="psm" src="MAIN/images/psmi.png" alt="psm image" />
-            <p>The Scrum Master is accountable for establishing Scrum as defined in the Scrum Guide. They do this by helping everyone understand Scrum theory and practice, both within the Scrum Team and the organization.</p>
-          </div>
     
-          <div class="modal2 hidden">
-            <button class="close-modal2">&times;</button>
-            <!-- <h1>I'm a modal window 😍</h1> -->
-            <img class="pspo" src="MAIN/images/pspoi.png" alt="pspo image"/>  
-            <p>The Product Owner (PO) is a member of the Agile Team responsible for defining Stories and prioritizing the Team Backlog to streamline the execution of program priorities while maintaining the conceptual and technical integrity of the Features or components for the team.</p>
-          </div>
-          <div class="modal3 hidden">
-            <button class="close-modal3">&times;</button>
-            <!-- <h1>I'm a modal window 😍</h1> -->
-            <img class="prince2" src="MAIN/images/prince2.jpg" alt="prince2 image" />  
-            <p>PRINCE2 is a project management method widely adopted around the world, used by people and organizations from wide-ranging industries and sectors. It is a flexible method that guides you through the essentials for managing successful projects, regardless of type or scale.</p>
-          </div>
-          <div class="overlay hidden"></div> 
-        </section>
         
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
 <!-- ///////////// NEW SECTION-->
@@ -199,7 +189,7 @@
         >
           <div class="operations__icon operations__icon--1">
             <svg>
-              <use xlink:href="img/icons.svg#icon-upload"></use>
+              <!-- <use xlink:href="img/icons.svg#icon-upload"></use> -->
             </svg>
           </div>
           <h5 class="operations__header">
@@ -224,7 +214,7 @@
         <div class="operations__content operations__content--2">
           <div class="operations__icon operations__icon--2">
             <svg>
-              <use xlink:href="img/icons.svg#icon-home"></use>
+              <!-- <use xlink:href="img/icons.svg#icon-home"></use> -->
             </svg>
           </div>
           <h5 class="operations__header">
@@ -243,7 +233,7 @@
         <div class="operations__content operations__content--3">
           <div class="operations__icon operations__icon--3">
             <svg>
-              <use xlink:href="img/icons.svg#icon-user-x"></use>
+              <!-- <use xlink:href="img/icons.svg#icon-user-x"></use> -->
             </svg>
           </div>
           <h5 class="operations__header">
@@ -271,9 +261,12 @@
         <div class="section__title">
           <h2 class="section__description">Features</h2>
           <h3 class="section__header">
-            EDUCATION & CERTIFICATIONS
+            Education & Certifications
           </h3>
         </div>
+    
+
+
         <div class="features">
           <img
             src="MAIN/images/c1-lazy.jpg"
@@ -299,12 +292,14 @@
             </ul>
       
           </div>
+        
           <div class="features__feature">
             <div class="features__icon">
-              <svg>
-                <use xlink:href="img/icons.svg#icon-trending-up"></use>
+              <!-- <svg> -->
+                <use xlink:href="https://www.freepik.com/free-icon/open-book_695862.htm#page=1&position=14#&position=14"></use>
               </svg>
             </div>
+            
             <h5 class="features__header">EDUCATION</h5>
             <ul>
               <li>Diploma in Graphic Designing, Shaw Academy, 2020</li>
@@ -324,58 +319,86 @@
       </div>
     </section>
 
+      <!-- ********************  TESTING MODAL ********************* -->
+    <section class="content-wrap">
+      <button class="show-modal1">Certified Scrum Master PSM1</button>
+      <button class="show-modal2">Certified Product Owner PSPO1</button>
+      <button class="show-modal3">Certified PRINCE2 Foundation</button>
+  
+      <div class="modal1 hidden">
+        <button class="close-modal1">&times;</button>
+        <!-- <h1>I'm a modal window 😍</h1> -->
+        <img class="psm" src="MAIN/images/psmi.png" alt="psm image" />
+        <p>The Scrum Master is accountable for establishing Scrum as defined in the Scrum Guide. They do this by helping everyone understand Scrum theory and practice, both within the Scrum Team and the organization.</p>
+      </div>
+
+      <div class="modal2 hidden">
+        <button class="close-modal2">&times;</button>
+        <!-- <h1>I'm a modal window 😍</h1> -->
+        <img class="pspo" src="MAIN/images/pspoi.png" alt="pspo image"/>  
+        <p>The Product Owner (PO) is a member of the Agile Team responsible for defining Stories and prioritizing the Team Backlog to streamline the execution of program priorities while maintaining the conceptual and technical integrity of the Features or components for the team.</p>
+      </div>
+      <div class="modal3 hidden">
+        <button class="close-modal3">&times;</button>
+        <!-- <h1>I'm a modal window 😍</h1> -->
+        <img class="prince2" src="MAIN/images/prince2.jpg" alt="prince2 image" />  
+        <p>PRINCE2 is a project management method widely adopted around the world, used by people and organizations from wide-ranging industries and sectors. It is a flexible method that guides you through the essentials for managing successful projects, regardless of type or scale.</p>
+      </div>
+      <div class="overlay hidden"></div> 
+    </section>
+    <!-- /////////////// -->
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-      <section class="projects">
-        <div class="content-wrap">
+  
           
           <!-- End of Project block. -->
-          <section class="project-item">
-            <img
-              src="MAIN/images/award.jpg"
-              alt="description of image" />
-            <h3>Awards</h3>
-            <p>Excellence in Project Management by Lumina Datamatics</p>
-            <p>
-              <i>“Sneha is an extremely talented and capable project manager.
-                During her time at Lumina, I was in a senior position on the
-                operations team, and I regularly received thanks, praise, and
-                positive notes about her work from clients and authors. She
-                helped us to earn the trust of many clients, and successfully
-                oversaw all projects assigned to her. She's hardworking, and
-                would be an asset to any team!”</i>
-            </p>
-            <p>
-              -Laura Hakala, Director of Business Development & Strategy at
-              Lumina Datamatics Limited
-            </p>
-          </section>
 
-          <section class="project-item">
-              <h3>Inspiration</h3>
-              
-              <p> People who inspires me - <a href="SUB/INSPIRATION/inspire.html" target="_blank"
-                >Priyanka Chopra,<img src="SUB/INSPIRATION/images/unfinished.jpg" alt="Priyanka chopra image" /></a> Robin Sharma, Sadhguru</p>   
-          </section>
-          <section >
-            <h3>Hobbies</h3>
-            <p> Sketching/Painting, Heena Art, Reading books, Acting, Dancing, & of course travelling :)</p>
-            <div class="hobbies">
-          
-            <!-- <img src="MAIN/images/sketch1.jpg" alt="Sketching"/> -->
-            <!-- <img src="MAIN/images/sketch2.jpg" alt="Sketching"/>
-            <img src="MAIN/images/sketch3.jpg" alt="Sketching" /> -->
-            <!-- <img src="MAIN/images/sketch4.jpg" alt="Sketching" /> -->
-            <!-- <img src="MAIN/images/rain-drop.jpg" alt="Sketching"/>
-         
-            <img src="MAIN/images/heena1.jpg" alt="Sketching" /> -->
-            <!-- <img src="MAIN/images/heena2.jpg" alt="Sketching" /> -->
-            <!-- <img src="MAIN/images/heena3.jpg" alt="Sketching" />
-            <img src="MAIN/images/mask.jpg" alt="Sketching" /> -->
+<section class="section projects content-wrap">  
+  <div class= "section__title">
+    <h2 class="section__description">Awards</h2>
+    <h3 class="section__header">Project Management</h3> 
+    <div class="row">
+        <div class="col-md-6">
+            <div class="d-flex mb-2">
+                <div>
+                  <img class="img-ref" src="/STYLE/laura.png">
+                </div>
+                <div class="m-3 mb-0">
+                  <h3 class="h6 mb-1">Laura Hakala</h3>
+                   <p class="text-muted">Director of Business Development & Strategy at Lumina Datamatics Limited</p>
+                </div>
+              </div>
+              <div class="d-flex">
+                <i class="text-secondary fas fa-quote-left"></i>
+                
+                <p class="lead mx-2">Sneha is an extremely talented and capable project manager.
+                          During her time at Lumina, I was in a senior position on the
+                          operations team, and I regularly received thanks, praise, and
+                          positive notes about her work from clients and authors. She
+                          helped us to earn the trust of many clients, and successfully
+                          oversaw all projects assigned to her. She's hardworking, and
+                          would be an asset to any team!</p>
+              </div>
+      </div>
+      <div class="col-md-6">
+        <div class="d-flex mb-2">
+            <div>
+              <img class="img-ref" src="/STYLE/kulmani.png">
+            </div>
+            <div class="m-3 mb-0">
+              <h3 class="h6 mb-1">Kulmani Choudhary</h3>
+               <p class="text-muted">General Manager at Lumina Datamatics Limited</p>
+            </div>
           </div>
-          
-          </section>
-        </div>
-      </section>
+          <div class="d-flex">
+            <i class="text-secondary fas"></i>
+            
+            <p class="lead mx-2">Sneha and I had worked together in various projects. She is a very nice and detail-oriented person. A very soft spoken and humble personality, she is a great team player. She has excellent communication skills.I hardly had any concern on the projects managed by her. It was a great pleasure working with Sneha</p>
+          </div>
+  </div>
+    </div>
+            
+  </div>
+</section>
 
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
       <footer>
@@ -417,10 +440,13 @@
             </li>
           </ul>
         </div>
+    
       </footer>
     </main>
     <script src="MAIN/script.js"></script>
     <script src="STYLE/script-style1.js"></script>
     <script src="STYLE/script-style2.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="STYLE/fading-style.js"></script>
   </body>
 </html>
