@@ -97,3 +97,7 @@ p {
   backdrop-filter: blur(3px);
   z-index: 5;
 }
+
+.modal {
+  text-align: center;
+}
