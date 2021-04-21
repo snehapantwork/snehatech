@@ -427,3 +427,7 @@ footer a {
 .top {
   display: flex;
 }
+
+.underline h3 {
+  text-decoration: underline;
+}
