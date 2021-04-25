@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gulp": "^4.0.2",
     "history": "^4.10.1",
     "parcel": "^2.0.0-beta.2",
     "parcel-bundler": "^1.12.5",
